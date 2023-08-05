@@ -1,0 +1,41 @@
+#messageDiv{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+#changeButton{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    margin-left: 500px;
+    
+}
+#countButton{
+    
+            background-color:orangered;
+            color: white;
+            padding: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+            border-radius: 10px;
+            margin-left: 500px;
+            margin-top: 10px;
+
+}
+#counter{
+    margin-left: 550px;
+    font-size: 40px;
+    font-weight: 100;
+
+}
+
+#image{
+    width: 20%;
+    margin-top: 20px;
+}
