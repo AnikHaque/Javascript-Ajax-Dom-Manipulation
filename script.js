@@ -10,6 +10,7 @@ changeButton.addEventListener('click', () => {
     // messageDiv.textContent = 'New Message';
 });
 
+// ajax part 
  const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
 
         // Fetch data from the API
