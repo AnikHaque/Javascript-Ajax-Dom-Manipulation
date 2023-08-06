@@ -10,5 +10,17 @@ changeButton.addEventListener('click', () => {
     // messageDiv.textContent = 'New Message';
 });
 
+ const apiUrl = 'https://jsonplaceholder.typicode.com/posts';
+
+        // Fetch data from the API
+        fetch(apiUrl)
+            .then(response => response.json()) // Parse the response to JSON
+            .then(data => {
+                // Log all data to the console
+                console.log(data);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
 
 
